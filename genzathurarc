@@ -38,4 +38,7 @@ set render-loading-fg "$foreground"
 set window-title-home-tilde true
 set statusbar-basename true
 set selection-clipboard clipboard
+
+set font "JetBrains Mono 13"
+
 CONF
