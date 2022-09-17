@@ -5,7 +5,10 @@
 . $HOME/.cache/wal/colors.sh
 
 cat <<CONF
-set recolor "true"
+#-------------------------------------------------------------------------------
+# Colors
+#-------------------------------------------------------------------------------
+set recolor "false"
 
 set completion-bg "$background"
 set completion-fg "$foreground"
@@ -39,6 +42,15 @@ set window-title-home-tilde true
 set statusbar-basename true
 set selection-clipboard clipboard
 
+#-------------------------------------------------------------------------------
+# Fonts
+#-------------------------------------------------------------------------------
 set font "JetBrains Mono 13"
+
+#-------------------------------------------------------------------------------
+# Keybindings
+#-------------------------------------------------------------------------------
+map <C-s> toggle_statusbar
+map [fullscreen] <C-s>  toggle_statusbar
 
 CONF
